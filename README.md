@@ -1,11 +1,11 @@
-# PWA Examples
+# PWA Örnekleri
 
-Examples for progressive web apps.
+Progressive web apps(aşamalı web uygulamaları) için örnekler.
 
-In this repo, we currently have:
+* [CycleTracker](): Adet döngülerini takip etmek için temel bir uygulama. Uygulamanın HTML'i, adet döngüsü başlangıç ve bitiş tarihlerini eklemek için bir form içerir. JavaScript uygulama işlevi tarihleri sıralar ve bunları yerel depolama alanına kaydeder. Ayrıca yerel depolama alanından alınan tarihleri formun altında görüntüler. Uygulama, üç simge, renk düzeni vb. içeren bir manifesto dosyası içerir. Uygulama ayrıca varlık önbelleğe almayı işlemek için bir hizmet çalışanı içerir.
 
-* [CycleTracker](): A basic app for tracking menstrual cycles. The app's HTML includes a form to add a period cycle start and end dates. The JavaScript app functionality sorts the dates and saves thems to local storage. It also displays the dates retrieved from local storage below the form. The app includes a manifest file with three icons, color scheme, etc. The app also includes a service worker to handle asset caching.
+* [a2hs](a2hs): Ana ekrana ekle'nin (A2HS) nasıl çalıştığını göstermek için kurulmuş bir örnek. [Burada canlı görün](https://mdn.github.io/pwa-examples/a2hs/). Bu, uygulamanın ana ekrana eklenmesine izin vermek için bir simge ve [manifest dosyası](a2hs/manifest.webmanifest) ve sitenin çevrimdışı çalışmasını sağlamak için bir [basit hizmet çalışanı](a2hs/sw.js) içerir.
 
-* [a2hs](a2hs): An example set up to show how Add to home screen (A2HS) works. [See it live here](https://mdn.github.io/pwa-examples/a2hs/). This includes an icon and [manifest file](a2hs/manifest.webmanifest) for allowing the app to be added to home screen, and a [simple service worker](a2hs/sw.js) for making the site work offline.
+* [js13kpwa](js13kpwa): js13kGames 2017 yarışmasına gönderilen A-Frame girişlerinin bir listesi, Progressive Web Apps hakkındaki MDN makaleleri için örnek olarak kullanılmıştır. js13kPWA, App Shell yapısına sahiptir, Service Worker ile çevrimdışı çalışır, Manifest dosyası ve Ana Ekrana Ekle özelliği sayesinde yüklenebilir ve Bildirimler ve Push kullanılarak yeniden etkileşime geçilebilir. [Burada canlı olarak görebilirsiniz](https://mdn.github.io/pwa-examples/js13kpwa/).
 
-* [js13kpwa](js13kpwa): A list of A-Frame entries submitted to the js13kGames 2017 competition, used as an example for the MDN articles about Progressive Web Apps. The js13kPWA have the App Shell structure, works offline with the Service Worker, is installable thanks to the Manifest file and Add to Homescreen feature, and is re-engageable by using Notifications and Push. [See it live here](https://mdn.github.io/pwa-examples/js13kpwa/).
+### [Orjinal dosya](https://github.com/mdn/pwa-examples)
